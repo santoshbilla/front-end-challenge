@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "dist/front-end-challenge",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "database": {
+    "rules": "n"
+  }
+}
